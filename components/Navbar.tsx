@@ -6,6 +6,7 @@ const navLinks = [
   { label: 'About', href: '#about' },
   { label: 'Services', href: '#services' },
   { label: 'Portfolio', href: '#portfolio' },
+  { label: 'Recognition', href: '#recommendation' },
   { label: 'Contact', href: '#contact' },
 ]
 
@@ -21,18 +22,15 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled ? 'bg-cream/95 backdrop-blur-sm shadow-sm py-4' : 'bg-transparent py-6'
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled ? 'bg-cream/95 backdrop-blur-sm shadow-sm py-4' : 'bg-transparent py-6'
+        }`}
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <a
           href="#"
-          className={`font-serif text-lg tracking-[0.2em] uppercase transition-colors duration-300 ${
-            scrolled ? 'text-charcoal' : 'text-white'
-          }`}
+          className={`font-serif text-lg tracking-[0.2em] uppercase transition-colors duration-300 ${scrolled ? 'text-charcoal' : 'text-white'
+            }`}
         >
-          NAV
         </a>
 
         <div className="hidden md:flex items-center gap-10">
@@ -40,9 +38,8 @@ export default function Navbar() {
             <a
               key={link.href}
               href={link.href}
-              className={`text-xs tracking-[0.2em] uppercase transition-colors duration-300 hover:text-gold ${
-                scrolled ? 'text-charcoal' : 'text-white/90'
-              }`}
+              className={`text-xs tracking-[0.2em] uppercase transition-colors duration-300 hover:text-gold ${scrolled ? 'text-charcoal' : 'text-white/90'
+                }`}
             >
               {link.label}
             </a>
@@ -50,27 +47,23 @@ export default function Navbar() {
         </div>
 
         <button
-          className={`md:hidden transition-colors duration-300 ${
-            scrolled ? 'text-charcoal' : 'text-white'
-          }`}
+          className={`md:hidden transition-colors duration-300 ${scrolled ? 'text-charcoal' : 'text-white'
+            }`}
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle menu"
         >
           <div className="flex flex-col gap-1.5">
             <span
-              className={`block w-6 h-px bg-current transition-all duration-300 origin-center ${
-                menuOpen ? 'rotate-45 translate-y-[10px]' : ''
-              }`}
+              className={`block w-6 h-px bg-current transition-all duration-300 origin-center ${menuOpen ? 'rotate-45 translate-y-[10px]' : ''
+                }`}
             />
             <span
-              className={`block w-6 h-px bg-current transition-all duration-300 ${
-                menuOpen ? 'opacity-0' : ''
-              }`}
+              className={`block w-6 h-px bg-current transition-all duration-300 ${menuOpen ? 'opacity-0' : ''
+                }`}
             />
             <span
-              className={`block w-6 h-px bg-current transition-all duration-300 origin-center ${
-                menuOpen ? '-rotate-45 -translate-y-[6px]' : ''
-              }`}
+              className={`block w-6 h-px bg-current transition-all duration-300 origin-center ${menuOpen ? '-rotate-45 -translate-y-[6px]' : ''
+                }`}
             />
           </div>
         </button>

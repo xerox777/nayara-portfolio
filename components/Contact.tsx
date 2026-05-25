@@ -20,30 +20,50 @@ export default function Contact() {
             <div>
               <p className="text-[10px] tracking-[0.3em] uppercase text-gold mb-3 font-sans">Email</p>
               <a
-                href="mailto:hello@nayaravieira.com"
+                href="mailto:nayaraayresvieira@gmail.com"
                 className="text-white hover:text-gold transition-colors text-lg font-sans"
               >
-                hello@nayaravieira.com
+                nayaraayresvieira@gmail.com
               </a>
             </div>
             <div>
               <p className="text-[10px] tracking-[0.3em] uppercase text-gold mb-3 font-sans">Instagram</p>
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/nayaravieiradesign"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-gold transition-colors text-lg font-sans"
               >
-                @nayaravieira.design
+                @nayaravieiradesign
+              </a>
+            </div>
+            <div>
+              <p className="text-[10px] tracking-[0.3em] uppercase text-gold mb-3 font-sans">LinkedIn</p>
+              <a
+                href="https://linkedin.com/in/nayara-ayres-vieira"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-gold transition-colors text-lg font-sans"
+              >
+                Nayara Ayres Vieira
+              </a>
+            </div>
+            <div>
+              <p className="text-[10px] tracking-[0.3em] uppercase text-gold mb-3 font-sans">Phone</p>
+              <a
+                href="tel:+16507138757"
+                className="text-white hover:text-gold transition-colors text-lg font-sans"
+              >
+                (650) 713-8757
               </a>
             </div>
             <div>
               <p className="text-[10px] tracking-[0.3em] uppercase text-gold mb-3 font-sans">Based in</p>
-              <p className="text-white text-lg font-sans">São Paulo, Brazil</p>
+              <p className="text-white text-lg font-sans">Bay Area, California</p>
             </div>
             <div className="pt-8 border-t border-white/10">
               <p className="text-white/35 text-sm leading-relaxed font-sans">
-                Accepting new projects for 2025 – 2026.<br />Response within 48 hours.
+                Available for residential and commercial projects.<br />Response within 48 hours.
               </p>
             </div>
           </div>

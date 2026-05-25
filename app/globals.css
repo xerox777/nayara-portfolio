@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --sage-green: #8B8967;
+  --olive-green: #A2A07D;
+  --terracotta: #A85D35;
+  --burnt-orange: #B66A3F;
+  --cream: #E8DFD8;
+  --soft-beige: #D8CEC5;
+  --dark-olive: #6F6C52;
+  --warm-brown: #7A4A33;
+  --off-white: #F5F1EC;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -11,11 +23,11 @@ html {
 }
 
 ::selection {
-  background-color: #C4A882;
-  color: white;
+  background-color: #A85D35;
+  color: #F5F1EC;
 }
 
 body {
-  background-color: #FAF8F5;
-  color: #1A1A1A;
+  background-color: #F5F1EC;
+  color: #6F6C52;
 }

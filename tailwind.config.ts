@@ -9,12 +9,24 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        cream: '#FAF8F5',
-        gold: '#C4A882',
-        'gold-dark': '#A8896A',
-        charcoal: '#1A1A1A',
-        muted: '#8C7B6E',
-        'warm-border': '#E5DDD3',
+        // Primary surfaces
+        cream: '#F5F1EC',        // off-white — page background
+        'soft-beige': '#D8CEC5', // soft-beige — secondary surfaces
+        // Accent / brand
+        gold: '#A85D35',         // terracotta — primary accent (replaces gold)
+        'gold-dark': '#7A4A33',  // warm-brown — darker accent
+        // Text
+        charcoal: '#6F6C52',     // dark-olive — headings / dark text
+        muted: '#8B8967',        // sage-green — body / muted text
+        // Borders / dividers
+        'warm-border': '#D8CEC5',
+        // Extras available as utilities
+        'sage': '#8B8967',
+        'olive': '#A2A07D',
+        'terracotta': '#A85D35',
+        'burnt-orange': '#B66A3F',
+        'dark-olive': '#6F6C52',
+        'warm-brown': '#7A4A33',
       },
       fontFamily: {
         serif: ['var(--font-playfair)', 'Georgia', 'serif'],

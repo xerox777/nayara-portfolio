@@ -15,8 +15,8 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  title: 'Nayara Ayres-Vieira | Interior Design',
-  description: 'Luxury interior design by Nayara Ayres-Vieira — crafting refined, timeless spaces.',
+  title: 'Nayara Ayres Vieira | Interior Design',
+  description: 'Luxury interior design by Nayara Ayres Vieira — crafting refined, timeless spaces.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
