@@ -111,6 +111,23 @@ const projectGroups = [
       { src: '/projects/p20_img1.jpeg', label: 'Exterior Timber Reference' },
     ],
   },
+  {
+    id: 'autocad-adu',
+    number: '09',
+    title: 'AutoCAD — ADU Construction Documents',
+    course: 'AutoCAD - ADU Project',
+    description: 'Full construction document set for a single-story Accessory Dwelling Unit (ADU), produced in AutoCAD. The drawing package includes site plan, floor plan, four exterior elevations, building sections, electrical and lighting plan, roof framing plan, and floor framing and foundation plan — demonstrating technical drafting proficiency and code-compliant documentation.',
+    images: [
+      { src: '/projects/autocad/page1.png', label: 'Cover Sheet — G-000' },
+      { src: '/projects/autocad/page2.png', label: 'Site Plan — A-101' },
+      { src: '/projects/autocad/page3.png', label: 'Floor Plan — A-102' },
+      { src: '/projects/autocad/page5.png', label: 'Exterior Elevations — A-201' },
+      { src: '/projects/autocad/page4.png', label: 'Building Sections — A-301' },
+      { src: '/projects/autocad/page6.png', label: 'Electrical & Lighting Plan — AE-103' },
+      { src: '/projects/autocad/page7.png', label: 'Roof Framing Plan — AS-104' },
+      { src: '/projects/autocad/page8.png', label: 'Floor Framing & Foundation Plan — AS-101' },
+    ],
+  },
 ]
 
 const allImages = projectGroups.flatMap(g =>
@@ -151,7 +168,7 @@ export default function Portfolio() {
 
           {/* Header */}
           <div className="text-center mb-16">
-            <p className="text-gold tracking-[0.4em] uppercase text-xs mb-5 font-sans">Portfolio</p>
+            <p className="tracking-[0.4em] uppercase text-xs mb-5 font-sans" style={{ color: 'rgb(255 145 86)' }}>Portfolio</p>
             <h2 className="font-serif text-4xl md:text-5xl text-charcoal">Selected Works</h2>
           </div>
 
@@ -171,7 +188,7 @@ export default function Portfolio() {
                 />
                 <div className="absolute inset-0 bg-charcoal/0 group-hover:bg-charcoal/65 transition-all duration-500" />
                 <div className="absolute inset-0 flex flex-col justify-end p-7 translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500">
-                  <span className="text-gold text-[10px] tracking-[0.3em] uppercase mb-2 font-sans">{project.category}</span>
+                  <span className="text-[10px] tracking-[0.3em] uppercase mb-2 font-sans" style={{ color: 'rgb(255 145 86)' }}>{project.category}</span>
                   <h3 className="text-white font-serif text-xl">{project.title}</h3>
                 </div>
               </div>
@@ -262,7 +279,7 @@ export default function Portfolio() {
           {/* Top bar */}
           <div className="absolute top-0 left-0 right-0 flex items-center justify-between px-6 py-5 z-10 pointer-events-none">
             <div>
-              <p className="text-gold text-[10px] tracking-[0.3em] uppercase font-sans">{current.project}</p>
+              <p className="text-[10px] tracking-[0.3em] uppercase font-sans" style={{ color: 'rgb(255 145 86)' }}>{current.project}</p>
               <p className="text-white/60 text-sm font-sans mt-0.5">{current.label}</p>
             </div>
             <div className="flex items-center gap-6 pointer-events-auto">

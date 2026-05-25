@@ -50,7 +50,7 @@ export default function Hero() {
           willChange: 'transform',
         }}
       >
-        <p className="text-gold tracking-[0.4em] uppercase text-xs mb-6 font-sans">
+        <p className="tracking-[0.4em] uppercase text-xs mb-6 font-sans" style={{ color: 'rgb(255 145 86)' }}>
           Interior Design Studio
         </p>
         <h1 className="font-serif text-5xl md:text-7xl lg:text-[90px] font-normal mb-6 leading-[1.1]">

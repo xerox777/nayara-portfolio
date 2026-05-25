@@ -25,7 +25,7 @@ export default function About() {
           </div>
 
           <div>
-            <p className="text-gold tracking-[0.4em] uppercase text-xs mb-5 font-sans">
+            <p className="tracking-[0.4em] uppercase text-xs mb-5 font-sans" style={{ color: 'rgb(255 145 86)' }}>
               About
             </p>
             <h2 className="font-serif text-4xl md:text-5xl text-charcoal mb-8 leading-tight">
@@ -51,7 +51,7 @@ export default function About() {
             </div>
 
             <div className="mt-10 pt-10 border-t border-warm-border">
-              <p className="text-[10px] tracking-[0.3em] uppercase text-gold mb-5 font-sans">
+              <p className="text-[10px] tracking-[0.3em] uppercase mb-5 font-sans" style={{ color: 'rgb(255 145 86)' }}>
                 Specialties
               </p>
               <ul className="space-y-3">

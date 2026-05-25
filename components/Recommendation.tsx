@@ -11,7 +11,7 @@ export default function Recommendation() {
       <section id="recommendation" className="py-24 md:py-36 bg-cream">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
-            <p className="text-gold tracking-[0.4em] uppercase text-xs mb-5 font-sans">
+            <p className="tracking-[0.4em] uppercase text-xs mb-5 font-sans" style={{ color: 'rgb(255 145 86)' }}>
               Recognition
             </p>
             <h2 className="font-serif text-4xl md:text-5xl text-charcoal">

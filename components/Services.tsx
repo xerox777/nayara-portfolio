@@ -31,7 +31,7 @@ export default function Services() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-20">
           <div>
-            <p className="text-gold tracking-[0.4em] uppercase text-xs mb-5 font-sans">
+            <p className="tracking-[0.4em] uppercase text-xs mb-5 font-sans" style={{ color: 'rgb(255 145 86)' }}>
               Services
             </p>
             <h2 className="font-serif text-4xl md:text-5xl font-normal leading-tight">
@@ -52,8 +52,8 @@ export default function Services() {
                 ${i < 2 ? 'md:border-b-0 md:border-r' : ''}
               `}
             >
-              <span className="text-gold/50 font-serif text-base">{service.number}</span>
-              <h3 className="font-serif text-xl mt-5 mb-4 text-white group-hover:text-gold transition-colors duration-300">
+              <span className="font-serif text-base text-[rgba(255,145,86,0.5)]">{service.number}</span>
+              <h3 className="font-serif text-xl mt-5 mb-4 text-white group-hover:text-[rgb(255,145,86)] transition-colors duration-300">
                 {service.title}
               </h3>
               <p className="text-white/40 text-sm leading-relaxed font-sans">{service.description}</p>

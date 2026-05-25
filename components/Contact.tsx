@@ -3,13 +3,13 @@ export default function Contact() {
     <section id="contact" className="py-24 md:py-36 bg-charcoal">
       <div className="max-w-5xl mx-auto px-6">
         <div className="text-center mb-16">
-          <p className="text-gold tracking-[0.4em] uppercase text-xs mb-5 font-sans">
+          <p className="tracking-[0.4em] uppercase text-xs mb-5 font-sans" style={{ color: 'rgb(255 145 86)' }}>
             Contact
           </p>
           <h2 className="font-serif text-4xl md:text-5xl text-white mb-6">
             Let's work together
           </h2>
-          <p className="text-white/40 max-w-md mx-auto leading-relaxed font-sans text-sm">
+          <p className="text-white max-w-md mx-auto leading-relaxed font-sans text-sm">
             Whether you're ready to start a project or simply want to explore the possibilities,
             I'd love to hear from you.
           </p>
@@ -18,7 +18,7 @@ export default function Contact() {
         <div className="grid md:grid-cols-2 gap-16">
           <div className="space-y-10">
             <div>
-              <p className="text-[10px] tracking-[0.3em] uppercase text-gold mb-3 font-sans">Email</p>
+              <p className="tracking-[0.3em] uppercase mb-3 font-sans font-bold" style={{ color: 'rgb(255 145 86)', fontSize: 'medium' }}>Email</p>
               <a
                 href="mailto:nayaraayresvieira@gmail.com"
                 className="text-white hover:text-gold transition-colors text-lg font-sans"
@@ -27,7 +27,7 @@ export default function Contact() {
               </a>
             </div>
             <div>
-              <p className="text-[10px] tracking-[0.3em] uppercase text-gold mb-3 font-sans">Instagram</p>
+              <p className="tracking-[0.3em] uppercase mb-3 font-sans font-bold" style={{ color: 'rgb(255 145 86)', fontSize: 'medium' }}>Instagram</p>
               <a
                 href="https://instagram.com/nayaravieiradesign"
                 target="_blank"
@@ -38,7 +38,7 @@ export default function Contact() {
               </a>
             </div>
             <div>
-              <p className="text-[10px] tracking-[0.3em] uppercase text-gold mb-3 font-sans">LinkedIn</p>
+              <p className="tracking-[0.3em] uppercase mb-3 font-sans font-bold" style={{ color: 'rgb(255 145 86)', fontSize: 'medium' }}>LinkedIn</p>
               <a
                 href="https://linkedin.com/in/nayara-ayres-vieira"
                 target="_blank"
@@ -49,7 +49,7 @@ export default function Contact() {
               </a>
             </div>
             <div>
-              <p className="text-[10px] tracking-[0.3em] uppercase text-gold mb-3 font-sans">Phone</p>
+              <p className="tracking-[0.3em] uppercase mb-3 font-sans font-bold" style={{ color: 'rgb(255 145 86)', fontSize: 'medium' }}>Phone</p>
               <a
                 href="tel:+16507138757"
                 className="text-white hover:text-gold transition-colors text-lg font-sans"
@@ -58,7 +58,7 @@ export default function Contact() {
               </a>
             </div>
             <div>
-              <p className="text-[10px] tracking-[0.3em] uppercase text-gold mb-3 font-sans">Based in</p>
+              <p className="tracking-[0.3em] uppercase mb-3 font-sans font-bold" style={{ color: 'rgb(255 145 86)', fontSize: 'medium' }}>Based in</p>
               <p className="text-white text-lg font-sans">Bay Area, California</p>
             </div>
             <div className="pt-8 border-t border-white/10">
@@ -75,24 +75,24 @@ export default function Contact() {
               { label: 'Project Type', type: 'text', placeholder: 'Residential, Commercial...' },
             ].map((field) => (
               <div key={field.label}>
-                <label className="block text-[10px] tracking-[0.3em] uppercase text-white/40 mb-3 font-sans">
+                <label className="block text-[10px] tracking-[0.3em] uppercase text-white mb-3 font-sans">
                   {field.label}
                 </label>
                 <input
                   type={field.type}
                   placeholder={field.placeholder}
-                  className="w-full border-b border-white/15 bg-transparent py-3 text-white placeholder-white/20 focus:outline-none focus:border-gold transition-colors font-sans text-sm"
+                  className="w-full border-b border-white/15 bg-transparent py-3 text-white placeholder-white focus:outline-none focus:border-gold transition-colors font-sans text-sm"
                 />
               </div>
             ))}
             <div>
-              <label className="block text-[10px] tracking-[0.3em] uppercase text-white/40 mb-3 font-sans">
+              <label className="block text-[10px] tracking-[0.3em] uppercase text-white mb-3 font-sans">
                 Message
               </label>
               <textarea
                 rows={4}
                 placeholder="Tell me about your vision..."
-                className="w-full border-b border-white/15 bg-transparent py-3 text-white placeholder-white/20 focus:outline-none focus:border-gold transition-colors resize-none font-sans text-sm"
+                className="w-full border-b border-white/15 bg-transparent py-3 text-white placeholder-white focus:outline-none focus:border-gold transition-colors resize-none font-sans text-sm"
               />
             </div>
             <button
