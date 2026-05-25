@@ -1153,17 +1153,14 @@ video {
   font-size: 0.75rem;
   line-height: 1rem;
 }
+.font-bold {
+  font-weight: 700;
+}
 .font-light {
   font-weight: 300;
 }
 .font-normal {
   font-weight: 400;
-}
-.font-bold {
-  font-weight: 700;
-}
-.font-extrabold {
-  font-weight: 800;
 }
 .uppercase {
   text-transform: uppercase;
@@ -1202,6 +1199,9 @@ video {
 .tracking-widest {
   letter-spacing: 0.1em;
 }
+.text-\[rgba\(255\2c 145\2c 86\2c 0\.5\)\] {
+  color: rgba(255,145,86,0.5);
+}
 .text-charcoal {
   --tw-text-opacity: 1;
   color: rgb(111 108 82 / var(--tw-text-opacity, 1));
@@ -1213,8 +1213,9 @@ video {
 .text-gold\/20 {
   color: rgb(168 93 53 / 0.2);
 }
-.text-gold\/50 {
-  color: rgb(168 93 53 / 0.5);
+.text-green-400 {
+  --tw-text-opacity: 1;
+  color: rgb(74 222 128 / var(--tw-text-opacity, 1));
 }
 .text-muted {
   --tw-text-opacity: 1;
@@ -1222,6 +1223,10 @@ video {
 }
 .text-muted\/70 {
   color: rgb(139 137 103 / 0.7);
+}
+.text-red-400 {
+  --tw-text-opacity: 1;
+  color: rgb(248 113 113 / var(--tw-text-opacity, 1));
 }
 .text-white {
   --tw-text-opacity: 1;
@@ -1254,9 +1259,6 @@ video {
 .text-white\/90 {
   color: rgb(255 255 255 / 0.9);
 }
-.text-\[rgba\(255\2c 145\2c 86\2c 0\.5\)\] {
-  color: rgba(255,145,86,0.5);
-}
 .underline {
   text-decoration-line: underline;
 }
@@ -1266,12 +1268,6 @@ video {
 .antialiased {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-.placeholder-white\/20::-moz-placeholder {
-  color: rgb(255 255 255 / 0.2);
-}
-.placeholder-white\/20::placeholder {
-  color: rgb(255 255 255 / 0.2);
 }
 .placeholder-white::-moz-placeholder {
   --tw-placeholder-opacity: 1;
@@ -1443,6 +1439,10 @@ body {
   outline-offset: 2px;
 }
 
+.disabled\:opacity-50:disabled {
+  opacity: 0.5;
+}
+
 .group:hover .group-hover\:translate-y-0 {
   --tw-translate-y: 0px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1464,11 +1464,6 @@ body {
 
 .group:hover .group-hover\:bg-charcoal\/65 {
   background-color: rgb(111 108 82 / 0.65);
-}
-
-.group:hover .group-hover\:text-gold {
-  --tw-text-opacity: 1;
-  color: rgb(168 93 53 / var(--tw-text-opacity, 1));
 }
 
 .group:hover .group-hover\:text-\[rgb\(255\2c 145\2c 86\)\] {
